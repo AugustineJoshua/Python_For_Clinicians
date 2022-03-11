@@ -13,7 +13,6 @@ dataset = pd.read_excel('C:/--your file path here--/mock_database_snn_mlp.xlsx')
 
 # to fit a simple neural network
 
-from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score
